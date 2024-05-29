@@ -37,6 +37,7 @@ Result: 8 004 500
 Contributors names and contact info
 
 ex. Sergey Veneckiy 
+
 mail: s.venetsky@gmail.com
 
 ## License
