@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Set the project name and version
-project(uc VERSION 0.0.1)
+project(uc VERSION 1.0.0)
 
 # Specify the C standard
 set(CMAKE_C_STANDARD 99)
