@@ -12,13 +12,16 @@ This calculator allows to users perfom different operations in user-friendly int
  It is written in C and utilizes the tinyexpr library for parsing and evaluating mathematical expressions.
 
 ### Installing
+Set of steps for installation:
 
+```
 git clone https://github.com/yellow-footed-honeyguide/uc.git 
 cd calculator
 mkdir build
 cd build
 cmake ..
 make
+```
 
 
 ### Executing program
