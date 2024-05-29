@@ -1,55 +1,42 @@
 # uc - Unix Calculator
 
-Simple overview of use/purpose.
+Simple interactive calculator to any unix-like system
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This calculator allows to users perfom different operations in user-friendly interactive mode.
 
 ## Getting Started
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+ It is written in C and utilizes the tinyexpr library for parsing and evaluating mathematical expressions.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+git clone https://github.com/yellow-footed-honeyguide/uc.git 
+cd calculator
+mkdir build
+cd build
+cmake ..
+make
+
 
 ### Executing program
+To perform calculations, simply run the program and enter expressions when prompted:
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+Expression: 4 000 + 8 000 500
+Result: 8 004 500
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
-
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+ex. Sergey Veneckiy 
+mail: s.venetsky@gmail.com
 
 ## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License
 
 
