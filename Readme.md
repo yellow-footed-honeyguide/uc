@@ -4,7 +4,7 @@ Simple interactive calculator to any unix-like system
 
 ## Description
 
-This calculator allows to users perfom different operations in user-friendly interactive mode.
+The uc(Unix Calculator) allows to users perfom different operations in user-friendly interactive mode.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ Set of steps for installation:
 
 ```
 git clone https://github.com/yellow-footed-honeyguide/uc.git 
-cd calculator
+cd uc
 mkdir build
 cd build
 cmake ..
