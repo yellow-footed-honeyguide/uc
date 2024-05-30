@@ -50,6 +50,7 @@ int main(int argc, char *argv[]) {
             } else {
                 // Check if result is an integer
                 if (result == floor(result)) {
+                    printf("%s\n", "hello");
                     printf("%s\n", number_formatter(result));
                 } else {
                     // Print with 10 decimal places
