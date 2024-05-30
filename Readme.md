@@ -6,6 +6,34 @@ Simple interactive calculator to any unix-like system
 
 The uc (Unix Calculator) allows to users perfom different operations in user-friendly interactive mode.
 
+## Features
+🌋 Pure Muscle, No Fluff! 💪
+
+Crafted in the mighty C language, uc (Unix Calculator) stands alone with zero dependencies! Ultimate lone wolf! 🐺
+
+🌋 Epic Number Display! 🚀
+
+Long numbers? No problem! uc (Unix Calculator) formats them with style, making complex calculations easy to read! 😎
+
+🌋 Tackle Giant Numbers! 💪
+
+Flex your math muscles with uc (Unix Calculator)'s ability to handle up to 30+digit numbers, including decimals! Feel the raw power! 💪🦾
+
+🌋 Quick Result Recall! 🔙
+
+Messed up? Just hit the up arrow and Unixcalc retrieves your last result faster than a lightning strike! ⚡
+
+🌋 Chain Calculations! ⚡
+
+Unixcalc keeps your previous results on deck, ready for more action! Chain calculations and command the numbers like a boss! 🕴
+
+🌋 Universal Compatibility! 🌍
+
+From Linux to macOS to BSD, uc (Unix Calculator) flexes on any system! It's the Swiss Army knife of calculators! 🛠
+
+🌋 Actively maintened Open-Source Powerhouse! 💪
+
+
 ## Getting Started
 
 ### Dependencies
@@ -25,7 +53,15 @@ make
 
 
 ### Executing program
-![usage-example](assets/uc_examples.gif)
+To perform calculations, simply run the program and enter expressions when prompted:
+
+```
+Expression: 4 000 + 8 000 500
+Result: 8 004 500
+
+Expression: 10 000 000 + 44.58
+Result: 10 000 044.58
+```
 
 
 ## Authors
