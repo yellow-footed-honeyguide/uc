@@ -1,3 +1,0 @@
-/home/honeyguide/Desktop/Labour/uc-1.0.0/usr/src/uc/build/CMakeFiles/uc.dir
-/home/honeyguide/Desktop/Labour/uc-1.0.0/usr/src/uc/build/CMakeFiles/edit_cache.dir
-/home/honeyguide/Desktop/Labour/uc-1.0.0/usr/src/uc/build/CMakeFiles/rebuild_cache.dir
