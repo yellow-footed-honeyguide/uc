@@ -4,7 +4,7 @@ Simple interactive calculator to any unix-like system
 
 ## Description
 
-The uc(Unix Calculator) allows to users perfom different operations in user-friendly interactive mode.
+The uc (Unix Calculator) allows to users perfom different operations in user-friendly interactive mode.
 
 ## Getting Started
 
