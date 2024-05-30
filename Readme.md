@@ -25,15 +25,7 @@ make
 
 
 ### Executing program
-To perform calculations, simply run the program and enter expressions when prompted:
-
-```
-Expression: 4 000 + 8 000 500
-Result: 8 004 500
-
-Expression: 10 000 000 + 44.58
-Result: 10 000 044.58
-```
+![usage-example](uc_examples.gif)
 
 
 ## Authors
