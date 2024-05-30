@@ -25,7 +25,7 @@ make
 
 
 ### Executing program
-![usage-example](uc_examples.gif)
+![usage-example](assets/uc_examples.gif)
 
 
 ## Authors
