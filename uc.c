@@ -36,7 +36,14 @@ int main(int argc, char *argv[]) {
             if (err != 0) {
                 print_error();
             } else {
-                printf("Result: %.2f\n\n", result);
+
+ // Check if result is an integer
+    if (result == floor(result)) {
+        printf("Result: %.0f\n\n", result); // Print with no decimal places
+    } else {
+        printf("Result: %.10f\n\n", result); // Print with 10 decimal places
+    }
+
             }
         }
     }

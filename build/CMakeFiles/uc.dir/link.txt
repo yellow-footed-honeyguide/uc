@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/uc.dir/uc.c.o CMakeFiles/uc.dir/tinyexpr.c.o -o uc  -lm 
