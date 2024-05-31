@@ -21,11 +21,11 @@ Flex your math muscles with uc (Unix Calculator)'s ability to handle up to 30+di
 
 🌋 Quick Result Recall! 🔙
 
-Messed up? Just hit the up arrow and Unixcalc retrieves your last result faster than a lightning strike! ⚡
+Messed up? Just hit the up arrow and uc (Unix Calculator) retrieves your last result faster than a lightning strike! ⚡
 
 🌋 Chain Calculations! ⚡
 
-Unixcalc keeps your previous results on deck, ready for more action! Chain calculations and command the numbers like a boss! 🕴
+uc (Unix Calculator) keeps your previous results on deck, ready for more action! Chain calculations and command the numbers like a boss! 🕴
 
 🌋 Universal Compatibility! 🌍
 
@@ -37,7 +37,7 @@ From Linux to macOS to BSD, uc (Unix Calculator) flexes on any system! It's the 
 ## Getting Started
 
 ### Dependencies
- It is written in C and utilizes the tinyexpr library for parsing and evaluating mathematical expressions.
+This utility is a robust, pure C implementation, crafted from scratch without external libraries for seamless, efficient performance.
 
 ### Installing
 Set of steps for installation:
