@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 # If removed, CMake will use its default minimum version, which may not support all the features used in this file.
 
 # Set the project name and version
-project(uc VERSION 1.4.1)
+project(uc VERSION 1.4.0)
 # If removed, the project will not have a name or version specified, making it harder to identify and manage.
 
 # Specify the C standard
@@ -28,7 +28,7 @@ endif()
 # If removed, the project will not check if the readline library is found, potentially leading to linking errors if it's missing.
 
 # Add an executable
-add_executable(uc uc.c conv_str_to_math_res.c)
+add_executable(uc uc.c conv_str_to_math_res.c handle_arguments.c)
 # If removed, the project will not create an executable named "uc" from the specified source files.
 
 # Link math library if needed
