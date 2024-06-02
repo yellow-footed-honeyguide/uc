@@ -9,11 +9,15 @@ The uc (Unix Calculator) allows to users perfom different operations in user-fri
 ## Features
 🌋 Pure Muscle, No Fluff! 💪
 
-Crafted in the mighty C language, uc (Unix Calculator) stands alone with zero dependencies! Ultimate lone wolf! 🐺
+Crafted in the mighty C language, uc (Unix Calculator) stands alone with almost zero dependencies! Ultimate lone wolf! 🐺
 
 🌋 Epic Number Display! 🚀
 
 Long numbers? No problem! uc (Unix Calculator) formats them with style, making complex calculations easy to read! 😎
+
+🌋 Type with Familiar Finesse! ⌨️
+uc (Unix Calculator) embraces your ~/.inputrc! 🏠 Unleash your bash and zsh muscle memory as you effortlessly navigate, edit, and recall commands like a seasoned pro! 😎 Let your fingers fly across the keyboard, harnessing the power of familiar hotkeys and shortcuts!
+
 
 🌋 Tackle Giant Numbers! 💪
 
