@@ -6,18 +6,36 @@ void print_version() {
     printf("1.4.0\n");
 }
 
+
 void print_help() {
-    printf("Example usage:\n");
-    printf("$ uc\n");
-    printf("> 20 000 + 5\n");
-    printf("20 005\n");
-    printf("> 5000000 * 43434\n");
-    printf("21 715 000 000.0000\n");
-    printf("> 800 000 / 7\n");
-    printf("114 285.7143\n");
-    printf("> q (for quit)\n");
-    printf("-v --version\n");
-    printf("-h --help\n");
+    printf("Usage: uc [OPTIONS]\n");
+    printf("\n");
+    printf("A command-line calculator that evaluates mathematical expressions.\n");
+    printf("\n");
+    printf("Options:\n");
+    printf("  -v, --version    Print the version information and exit.\n");
+    printf("  -h, --help       Print this help message and exit.\n");
+    printf("\n");
+    printf("Examples:\n");
+    printf("  $ uc\n");
+    printf("  > 20 000 + 5\n");
+    printf("  20 005\n");
+    printf("\n");
+    printf("  $ uc\n");
+    printf("  > 5000000 * 43434\n");
+    printf("  21 715 000 000.0000\n");
+    printf("\n");
+    printf("  $ uc\n");
+    printf("  > 800 000 / 7\n");
+    printf("  114 285.7143\n");
+    printf("\n");
+    printf("  $ uc\n");
+    printf("  > q\n");
+    printf("  (quit)\n");
+    printf("\n");
+    printf("Return values:\n");
+    printf("  0   Successful operation.\n");
+    printf("  1   Error occurred.\n");
 }
 
 void handle_arguments(int argc, char *argv[]) {
