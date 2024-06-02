@@ -5,7 +5,7 @@
 #include <readline/history.h>
 #include "handle_arguments.h"
 #include "conv_str_to_math_res.h"
-#include "power_uc.h"
+#include "exponent_mode.h"
 
 int main(int argc, char *argv[]) {
     handle_arguments(argc, argv);
@@ -31,13 +31,13 @@ int main(int argc, char *argv[]) {
              case 'q':
                 free(exp);
                 exit(0);
-             case 'p': {
+             case 'e': {
                 long double base, exponent;
                 printf("Enter base: ");
                 scanf("%Lf", &base);
                 printf("Enter exponent: ");
                 scanf("%Lf", &exponent);
-                long double result = power_uc(base, exponent);
+                long double result = exponent_calc(base, exponent);
                 printf("Result: %.0Lf\n", result);
                 break;
              }

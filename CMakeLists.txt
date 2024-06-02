@@ -28,7 +28,7 @@ endif()
 # If removed, the project will not check if the readline library is found, potentially leading to linking errors if it's missing.
 
 # Add an executable
-add_executable(uc uc.c conv_str_to_math_res.c handle_arguments.c power_uc.c)
+add_executable(uc uc.c conv_str_to_math_res.c handle_arguments.c exponent_mode.c)
 # If removed, the project will not create an executable named "uc" from the specified source files.
 
 # Link math library if needed
