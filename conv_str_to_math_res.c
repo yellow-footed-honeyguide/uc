@@ -53,8 +53,6 @@ long double evaluateExpression(const char *expr) {
             bufferIndex = 0;
             // If removed, the bufferIndex will not be reset to 0, which will cause the next number to be appended to the previous one, leading to incorrect parsing.
             
-            // ... (Arithmetic operations based on lastOperator)
-            
             lastOperator = c;
             // If removed, the lastOperator will not be updated with the current operator, which will cause the program to use the wrong operator for the next number.
         }

@@ -1,0 +1,3 @@
+/home/honeyguide/Desktop/uc/build/CMakeFiles/uc.dir
+/home/honeyguide/Desktop/uc/build/CMakeFiles/edit_cache.dir
+/home/honeyguide/Desktop/uc/build/CMakeFiles/rebuild_cache.dir

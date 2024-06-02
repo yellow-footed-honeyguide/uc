@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/uc.dir/uc.c.o CMakeFiles/uc.dir/conv_str_to_math_res.c.o CMakeFiles/uc.dir/handle_arguments.c.o CMakeFiles/uc.dir/power_uc.c.o -o uc  -lm /usr/lib/x86_64-linux-gnu/libreadline.so 
