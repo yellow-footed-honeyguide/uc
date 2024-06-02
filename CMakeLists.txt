@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 # If removed, CMake will use its default minimum version, which may not support all the features used in this file.
 
 # Set the project name and version
-project(uc VERSION 1.4.0)
+project(uc VERSION 1.5.0)
 # If removed, the project will not have a name or version specified, making it harder to identify and manage.
 
 # Specify the C standard
