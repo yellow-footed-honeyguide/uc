@@ -10,22 +10,20 @@
 int main(int argc, char *argv[]) {
     handle_arguments(argc, argv);
 
-    char *exp;
-    // If removed, there will be no var for the math expression from the user.
+    char *exp; // the math expression from the user.
 
+    /* Loop gets multiple user input expressions. */
     while (1) {
-    // If removed, the user will not be able to input multiple expressions.
 
-        exp = readline("Expression: ");
-        // If removed, the program will not prompt the user for input.
+        exp = readline("Expression: "); // prompt the user for input.
 
-         if (exp == NULL) {
-                break;
-         }
-         // If removed and the user enters EOF (Ctrl+D), the program will not exit the loop gracefully.
+        /* Without this, entering EOF (Ctrl+D) won't exit 
+           the loop gracefully. */
+        if (exp == NULL) {
+            break;
+        }
 
-         add_history(exp);
-         // If removed, the user will not be able to access previously entered expressions using the up/down arrow keys.
+         add_history(exp); // access prev  expressions using the up/down keys
 
          switch (exp[0]) {
              case 'q':
