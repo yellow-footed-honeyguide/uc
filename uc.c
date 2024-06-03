@@ -42,9 +42,9 @@ int main(int argc, char *argv[]) {
                 break;
              }
              default: {
-                long double result = parseMathExpression(exp);
-                char *formattedResult = formatResult(result);
-                printf("Result: %s\n", formattedResult);
+                long double result = conv_str_to_math_res(exp);
+                char *formatted_result = add_spaces_to_triples(result);
+                printf("Result: %s\n", formatted_result);
                 free(exp);
                 break;
              }
