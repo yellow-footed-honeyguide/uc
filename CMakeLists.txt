@@ -18,4 +18,4 @@ add_executable(uc uc.c conv_str_to_math_res.c handle_arguments.c exponent_mode.c
 target_link_libraries(uc m)
 target_link_libraries(uc ${READLINE_LIBRARY})
 target_include_directories(uc PRIVATE ${READLINE_INCLUDE_DIR})
-
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/handle_arguments.c ${CMAKE_CURRENT_SOURCE_DIR}/handle_arguments.c @ONLY)

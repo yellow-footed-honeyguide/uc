@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <getopt.h>
 
+#define PROJECT_VERSION "1.6.0"
+
 void print_version() {
-    printf("1.6.0\n");
+    printf("%s\n", PROJECT_VERSION);
 }
 
 
