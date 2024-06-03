@@ -3,8 +3,7 @@
 
 #include <stdlib.h>
 
-long double evaluateExpression(const char *expr);
-long double parseMathExpression(const char *expr);
-char *formatResult(long double result);
+long double conv_str_to_math_res(const char *expr);
+char *add_spaces_to_triples(long double result);
 
 #endif // CONV_STR_TO_MATH_RES_H
