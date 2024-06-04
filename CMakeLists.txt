@@ -19,3 +19,14 @@ target_link_libraries(uc m)
 target_link_libraries(uc ${READLINE_LIBRARY})
 target_include_directories(uc PRIVATE ${READLINE_INCLUDE_DIR})
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/handle_arguments.c ${CMAKE_CURRENT_SOURCE_DIR}/handle_arguments.c @ONLY)
+
+
+enable_testing()
+
+# Add a test for the division operation
+add_test(NAME DivisionTest COMMAND bash -c "./uc <<< '10000/3'")
+set_tests_properties(DivisionTest PROPERTIES PASS_REGULAR_EXPRESSION "Result: 3 333.3333")
+
+# Add a test for the addition operation
+add_test(NAME AdditionTest COMMAND bash -c "./uc <<< '1000+500 000'")
+set_tests_properties(AdditionTest PROPERTIES PASS_REGULAR_EXPRESSION "Result: 501 000.0000")
