@@ -2,12 +2,11 @@
 #include <stdlib.h>
 #include <getopt.h>
 
-#define PROJECT_VERSION "1.6.0"
+//#define PROJECT_VERSION "1.6.0"
 
 void print_version() {
-    printf("%s\n", PROJECT_VERSION);
+    printf("%s\n", UC_VERSION);
 }
-
 
 void print_help() {
     printf("Usage: uc [OPTIONS]\n");
