@@ -25,7 +25,7 @@ Flex your math muscles with uc (Unix Calculator)'s ability to handle up to 30+di
 
 🌋 Quick Result Recall! 🔙
 
-Messed up? Just hit the up arrow and uc (Unix Calculator) retrieves your last result faster than a lightning strike! ⚡
+Messed up? Just hit the up arrow and uc (Unix Calculator) retrieves your last result faster than a lightning strike! Press <Tab> key to insert your previous result to expression! ⚡
 
 🌋 Chain Calculations! ⚡
 
