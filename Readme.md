@@ -16,6 +16,7 @@ Crafted in the mighty C language, uc (Unix Calculator) stands alone with almost 
 Long numbers? No problem! uc (Unix Calculator) formats them with style, making complex calculations easy to read! 😎
 
 🌋 Type with Familiar Finesse! ⌨️
+
 uc (Unix Calculator) embraces your ~/.inputrc! 🏠 Unleash your bash and zsh muscle memory as you effortlessly navigate, edit, and recall commands like a seasoned pro! 😎 Let your fingers fly across the keyboard, harnessing the power of familiar hotkeys and shortcuts!
 
 
@@ -25,11 +26,12 @@ Flex your math muscles with uc (Unix Calculator)'s ability to handle up to 30+di
 
 🌋 Quick Result Recall! 🔙
 
-Messed up? Just hit the up arrow and uc (Unix Calculator) retrieves your last result faster than a lightning strike! Press <Tab> key to insert your previous result to expression! ⚡
+Messed up? Just hit the up arrow and uc (Unix Calculator) retrieves your last result faster than a lightning strike!
 
 🌋 Chain Calculations! ⚡
 
-uc (Unix Calculator) keeps your previous results on deck, ready for more action! Chain calculations and command the numbers like a boss! 🕴
+uc (Unix Calculator) keeps your previous results on deck, ready for more action!🕴
+Press Tab key to insert your previous result to expression! ⚡
 
 🌋 Universal Compatibility! 🌍
 
