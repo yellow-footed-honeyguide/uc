@@ -17,6 +17,16 @@ void print_help() {
     printf("  -v, --version    Print the version information and exit.\n");
     printf("  -h, --help       Print this help message and exit.\n");
     printf("\n");
+    printf("Commands:\n");
+    printf("  > tab (Add to Expression field previous result)\n");
+    printf("\n");
+    printf("  > e   (Switch to Exponent calculation mode)\n");
+    printf("  Enter Base: 2\n");
+    printf("  Enter Exponent: 8\n");
+    printf("  256\n");
+    printf("\n");
+    printf("  > q   (Exit)\n");
+    printf("\n");
     printf("Examples:\n");
     printf("  > 20 000 + 5\n");
     printf("  20 005\n");
@@ -27,14 +37,6 @@ void print_help() {
     printf("  > 800 000 / 7\n");
     printf("  114 285.7143\n");
     printf("\n");
-    printf("  > e\n");
-    printf("  Enter Base: 2\n");
-    printf("  Enter Exponent: 8\n");
-    printf("  256\n");
-    printf("\n");
-    printf("  > q\n");
-    printf("  exit\n");
-
 }
 
 void handle_arguments(int argc, char *argv[]) {
