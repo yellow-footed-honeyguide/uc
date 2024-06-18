@@ -13,18 +13,29 @@
    specified by the exponent, effectively calculating the power. 
    This loop-based approach is necessary to manually compute the power 
    for integer exponents without using built-in functions. */
-long double exponent_calc(long double base, long double exponent) {
-    if (exponent == 0) {
-        return 1;
-    } else if (exponent < 0) {
-        return 1 / exponent_calc(base, -exponent);
-    } else if (exponent == 1) {
-        return base;
-    } else {
-        long double result = base;
-        for (int i = 1; i < exponent; i++) {
-            result *= base;
-        }
-        return result;
+
+long double
+exponent_calc (long double base, long double exponent)
+{
+  if (exponent == 0)
+    {
+      return 1;
+    }
+  else if (exponent < 0)
+    {
+      return 1 / exponent_calc (base, -exponent);
+    }
+  else if (exponent == 1)
+    {
+      return base;
+    }
+  else
+    {
+      long double result = base;
+      for (int i = 1; i < exponent; i++)
+	{
+	  result *= base;
+	}
+      return result;
     }
 }
