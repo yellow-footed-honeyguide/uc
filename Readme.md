@@ -68,8 +68,11 @@ sudo mv ./nooks /usr/local/bin/
 
 
 
-## Issues
-Please use this template [Issue template](.github/ISSUE_TEMPLATE/bug_report.md) and paste the resulting text when you create a new issue by clicking on the "New issue" button.
+## Issue Templates
+If you encounter a bug or have a feature request, please use one of the following templates:
+
+- [Bug Report](.github/ISSUE_TEMPLATE/bug_report.md)
+- [Feature Request](.github/ISSUE_TEMPLATE/feature_request.md)
 
 ## Contributing
 
