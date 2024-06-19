@@ -66,6 +66,16 @@ sudo mv ./nooks /usr/local/bin/
 ### Executing program
 ![usage-example](assets/uc_examples.gif)
 
+
+
+## Issues
+Please use this template [Issue template](.github/ISSUE_TEMPLATE/bug_report.md) and paste the resulting text when you create a new issue by clicking on the "New issue" button.
+
+## Contributing
+
+If you'd like to contribute to this project, please read our [Contributing Guidelines](CONTRIBUTING.md) for more information on how to get started.
+
+
 ## Authors
 Contributors names and contact info
 
