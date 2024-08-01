@@ -22,7 +22,9 @@ target_include_directories(uc PRIVATE ${READLINE_INCLUDE_DIR})
 # Add uc version from header of this file to function that print --version
 target_compile_definitions(uc PUBLIC UC_VERSION="${PROJECT_VERSION}")
 
-
+# Installation rules
+include(GNUInstallDirs)
+install(TARGETS uc DESTINATION ${CMAKE_INSTALL_BINDIR})
 enable_testing()
 
 # Add a test for the division operation

@@ -57,9 +57,9 @@ cmake ..
 make
 ```
 
-Now you can move nooks to /usr/local/bin/
+Now you can install uc to /usr/local/bin/
 ```
-sudo mv ./nooks /usr/local/bin/
+sudo make install
 ```
 
 
