@@ -2,6 +2,8 @@
 
 Simple interactive calculator to any unix-like system
 
+![usage-example](assets/uc_examples.gif)
+
 ## Description
 
 The uc (Unix Calculator) allows to users perfom different operations in user-friendly interactive mode.
@@ -17,7 +19,7 @@ Long numbers? No problem! uc (Unix Calculator) formats them with style, making c
 
 🌋 Type with Familiar Finesse! ⌨️
 
-uc (Unix Calculator) embraces your ~/.inputrc! 🏠 Unleash your bash and zsh muscle memory as you effortlessly navigate, edit, and recall commands like a seasoned pro! 😎 Let your fingers fly across the keyboard, harnessing the power of familiar hotkeys and shortcuts!
+uc (Unix Calculator) embraces your ~/.inputrc! 🏠 Unleash your bash and zsh muscle memory as you effortlessly navigate, edit, and recall commands like a seasoned pro!
 
 
 🌋 Tackle Giant Numbers! 💪
@@ -35,7 +37,7 @@ Press Tab key to insert your previous result to expression! ⚡
 
 🌋 Universal Compatibility! 🌍
 
-From Linux to macOS to BSD, uc (Unix Calculator) flexes on any system! It's the Swiss Army knife of calculators! 🛠
+From Linux to macOS to BSD, uc (Unix Calculator) flexes on any system! 🛠
 
 🌋 Actively maintened Open-Source Powerhouse! 💪
 
@@ -62,12 +64,6 @@ Now you can install uc to /usr/local/bin/
 sudo make install
 ```
 
-
-### Executing program
-![usage-example](assets/uc_examples.gif)
-
-
-
 ## Issue Templates
 If you encounter a bug or have a feature request, please use one of the following templates:
 
@@ -79,12 +75,10 @@ If you encounter a bug or have a feature request, please use one of the followin
 If you'd like to contribute to this project, please read our [Contributing Guidelines](CONTRIBUTING.md) for more information on how to get started.
 
 
-## Authors
-Contributors names and contact info
-
-ex. Sergey Veneckiy 
-
-mail: s.venetsky@gmail.com
+## Author
+**Sergey Veneckiy**
+- Email: s.venetsky@gmail.com
+- GitHub: [@yellow-footed-honeyguide](https://github.com/yellow-footed-honeyguide)
 
 ## License
 This project is licensed under the MIT License
