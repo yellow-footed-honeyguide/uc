@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
-project(uc VERSION 1.7.0)
+project(uc VERSION 1.7.1)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED True)
+
+add_compile_options(-Wall -Wextra -Wpedantic)
 
 find_library(READLINE_LIBRARY readline)
 find_path(READLINE_INCLUDE_DIR readline/readline.h)

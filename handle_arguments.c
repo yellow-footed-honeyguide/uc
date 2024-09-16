@@ -35,7 +35,7 @@ print_help ()
   printf ("  20 005\n");
   printf ("\n");
   printf ("  > 5000000 * 43 434\n");
-  printf ("  21 715 000 000.0000\n");
+  printf ("  217 170 000 000\n");
   printf ("\n");
   printf ("  > 800 000 / 7\n");
   printf ("  114 285.7143\n");
