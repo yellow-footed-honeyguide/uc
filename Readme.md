@@ -11,7 +11,7 @@ The uc (Unix Calculator) allows to users perfom different operations in user-fri
 ## Features
 🌋 Pure Muscle, No Fluff! 💪
 
-Crafted in the mighty C language, uc (Unix Calculator) stands alone with almost zero dependencies! Ultimate lone wolf! 🐺
+Crafted in the mighty C language, uc (Unix Calculator) stands alone with only Readline lib dependency! Ultimate lone wolf! 🐺
 
 🌋 Epic Number Display! 🚀
 
@@ -45,7 +45,7 @@ From Linux to macOS to BSD, uc (Unix Calculator) flexes on any system! 🛠
 ## Getting Started
 
 ### Dependencies
-This utility is a robust, pure C implementation, crafted from scratch without external libraries for seamless, efficient performance.
+readline
 
 ### Installing
 Set of steps for installation:
