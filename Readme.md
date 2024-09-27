@@ -45,23 +45,21 @@ From Linux to macOS to BSD, uc (Unix Calculator) flexes on any system! 🛠
 ## Getting Started
 
 ### Dependencies
-readline
+- readline
 
-### Installing
-Set of steps for installation:
-
-```
-git clone https://github.com/yellow-footed-honeyguide/uc.git 
+### Build 
+```bash
+git clone https://github.com/yellow-footed-honeyguide/uc.git
 cd uc
-mkdir build
-cd build
+mkdir build && cd build
 cmake ..
-make
+cmake --build .
 ```
 
-Now you can install uc to /usr/local/bin/
-```
-sudo make install
+### Install
+For system-wide installation (may require elevated privileges like `sudo`):
+```bash
+cmake --install .
 ```
 
 ## Issue Templates
