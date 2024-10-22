@@ -1,5 +1,7 @@
 # uc - Unix Calculator
 
+![Tests](https://github.com/yellow-footed-honeyguide/uc/workflows/Tests/badge.svg)
+
 Simple interactive calculator to any unix-like system
 
 ![usage-example](assets/uc_examples.gif)
